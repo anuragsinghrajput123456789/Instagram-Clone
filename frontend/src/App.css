@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.inputBox {
+  display: flex;
+  background-color: #2727272a;
+  border: 1px solid black;
+}
+
+.inputBox input{
+  flex: 1;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.btnNormal{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer
+}

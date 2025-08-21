@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import TopUsers from "../components/TopUsers";
 import Post from "../components/Post";
+import Bottom from "../components/Bottom";
 
 const Home = () => {
   return (
@@ -10,7 +10,8 @@ const Home = () => {
       <Navbar />
       <TopUsers />
       <Post />
-      <Footer />
+      <Bottom/>
+
     </>
   );
 };

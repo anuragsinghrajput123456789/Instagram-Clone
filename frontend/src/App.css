@@ -18,6 +18,18 @@ body {
   outline: none;
 }
 
+
+.inputBox textarea{
+  flex: 1;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  min-height: 40vh;
+  resize: vertical;
+  border: none;
+  outline: none;
+}
+
 .btnNormal {
   border: none;
   border-radius: 5px;
@@ -29,8 +41,8 @@ body {
   display: none;
 }
 
-.posts{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 6px;
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* spacing between posts */
 }

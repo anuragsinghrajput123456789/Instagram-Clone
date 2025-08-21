@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Avatar from "react-avatar";
+import Bottom from "../components/Bottom";
 const Profile = () => {
   return (
     <>
@@ -67,6 +68,7 @@ const Profile = () => {
           />
         </div>
       </div>
+      <Bottom/>
     </>
   );
 };

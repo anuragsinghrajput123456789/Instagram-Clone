@@ -6,6 +6,7 @@ import SignUp from './pages/signUp';
 import "./App.css"
 import Login from "./pages/Login"
 import Profile from './pages/Profile';
+import Create from './pages/Create';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const RouteHandler = () => {
       <Route path="/SignUp" element={<SignUp/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/profile/:id" element={<Profile/>}/>
+      <Route path="/create" element={<Create/>}/>
        <Route path="*" element={<NoPage />} />
     </Routes>
    )
